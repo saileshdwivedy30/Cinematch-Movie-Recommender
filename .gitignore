@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+*.egg-info/
+
+# Data and models (if large or private)
+model/*.pt
+data
+*.pkl
+*.npy
+
+# W&B and other logs
+wandb/
+*.log
+*.tmp
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
